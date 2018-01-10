@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="vue.js"></script>
+    <script src="vue-router.js"></script>
+    <script src="tween.js"></script>
+    <link rel="stylesheet" href="makdown.css">
+    <!--<link rel="stylesheet" href="https://hinesboy.github.io/mavonEditor/dist/markdown/github-markdown.min.css">-->
+</head>
+<body>
+
+<div id="root">
+    <transition name="a" mode="out-in">
+        <router-view></router-view>
+    </transition>
+    <!--<router-view></router-view>-->
+</div>
+
+
+<script src="components.js"></script>
+<script src="router.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
